@@ -1,0 +1,182 @@
+# =========================
+# Secrets / credentials
+# =========================
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+*.secret
+*.secrets
+secrets.*
+credentials.*
+credentials.json
+service-account.json
+firebase-adminsdk*.json
+google-credentials.json
+
+# API keys / tokens
+*.token
+*.apikey
+*.auth
+auth.json
+token.json
+
+# =========================
+# Config files that may contain secrets
+# =========================
+
+config.local.*
+config/private.*
+config/secrets.*
+settings.local.*
+application-local.*
+application-secret.*
+
+# Keep safe examples
+!config.example.*
+!settings.example.*
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+log/
+
+# =========================
+# Databases / local storage
+# =========================
+
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+*.dump
+*.sql
+*.bak
+
+# =========================
+# Backups / temporary files
+# =========================
+
+*.backup
+*.bak
+*.old
+*.orig
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# =========================
+# OS / editor files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+.idea/
+*.iml
+
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Node / JavaScript
+# =========================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+dist/
+build/
+coverage/
+
+# =========================
+# Docker / local overrides
+# =========================
+
+docker-compose.override.yml
+docker-compose.local.yml
+
+# =========================
+# Terraform / Infrastructure
+# =========================
+
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# =========================
+# Cloud / deployment
+# =========================
+
+.aws/
+.gcloud/
+.azure/
+.vercel/
+.netlify/
+
+# =========================
+# SSH / GPG
+# =========================
+
+.ssh/
+.gnupg/
+
+# =========================
+# Large or generated files
+# =========================
+
+*.iso
+*.img
+*.qcow2
+*.tar
+*.tar.gz
+*.zip
+*.7z
